@@ -1,0 +1,24 @@
+# Virtual environment
+.venv/
+
+# Python caches and build output
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Encrypted, decrypted and partial outputs produced while trying the tool
+*.enc
+*.decrypted
+*.part
+
+# OS and editor files
+.DS_Store
+.idea/
+.vscode/
